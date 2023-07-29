@@ -40,26 +40,34 @@ class CW2Phase1 {
       while (sc.hasNext()) {
         final String[] nextSolids = sc.nextLine().split("\\s");
         final Solid sol;
-        switch (nextSolids.length) {
-        case 1:
-          int rad=Integer.parseInt(nextSolids[0]);
-          sol = new Sphere(rad);
-          break;
-        case 2:
-          int base=Integer.parseInt(nextSolids[0]);
-          int height=Integer.parseInt(nextSolids[1]);
-          sol = new Pyramid(base,height);
-          break;
-        case 3:
-          int s1=Integer.parseInt(nextSolids[0]);
-          int s2=Integer.parseInt(nextSolids[1]);
-          int s3=Integer.parseInt(nextSolids[2]);
-          sol = new Cuboid(s1,s2,s3);
-          break;
-        default:
-          System.out.printf("Unknown solid: %s%n",Arrays.toString(nextSolids));
-          sol=null;
-        };
+        try {
+          switch (nextSolids.length) {
+          case 1:
+            int rad=Integer.parseInt(nextSolids[0]);
+            sol = new Sphere(rad);
+            break;
+          case 2:
+            int base=Integer.parseInt(nextSolids[0]);
+            int height=Integer.parseInt(nextSolids[1]);
+            sol = new Pyramid(base,height);
+            break;
+          case 3:
+            int s1=Integer.parseInt(nextSolids[0]);
+            int s2=Integer.parseInt(nextSolids[1]);
+            int s3=Integer.parseInt(nextSolids[2]);
+            sol = new Cuboid(s1,s2,s3);
+            break;
+          default:
+            System.out.printf("Unknown solid: %s%n",Arrays.toString(nextSolids));
+            sol=null;
+          };
+        }
+        catch (InvalidSolidException e) {
+          System.out.printf("Problem with creating Solid %s :",
+                            Arrays.toString(nextSolids));
+          System.out.println(e);
+          continue;
+        }
         if (sol!=null) {
           System.out.printf("%s%nS=%3.2f V=%3.2f%n",
                             sol,
