@@ -1,4 +1,4 @@
-# Java-OOP Inheritance Class Fundamentals
+# Java Object Orientated Programming - Inheritance Class Fundamentals
 
 # Author
 Abdul Aziz Nassor - Classes
