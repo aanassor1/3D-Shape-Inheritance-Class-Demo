@@ -1,4 +1,4 @@
-# Java Object Orientated Programming - Inheritance Class Fundamentals
+# 3D Shape Inheritance Class Demo
 
 ## Author
 Abdul Aziz Nassor - Classes
