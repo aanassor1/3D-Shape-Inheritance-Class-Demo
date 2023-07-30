@@ -1,9 +1,9 @@
 # 3D Shape Inheritance Class Demo
 
 ## Author
-Abdul Aziz Nassor - Classes
+Abdul Aziz Nassor - Cuboid.java, InvalidSolidException.java, Pyramid.java, Solid.java, Sphere.java
 
-Gilbert Laycock - Main Controller (CW2Phase1, CW2Phase2, CW2Phase3)  classes
+Gilbert Laycock - CW2Phase1.java, CW2Phase2.java, CW2Phase3.java, input-solids1.txt, input-solids2.txt
 
 ## Description
 
