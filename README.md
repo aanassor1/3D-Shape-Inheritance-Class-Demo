@@ -3,7 +3,7 @@
 ## Author
 Abdul Aziz Nassor - Classes
 
-Gilbert Laycock - Main Controller(CW2Phase1, CW2Phase2, CW2Phase3)  classes
+Gilbert Laycock - Main Controller (CW2Phase1, CW2Phase2, CW2Phase3)  classes
 
 ## Description
 
