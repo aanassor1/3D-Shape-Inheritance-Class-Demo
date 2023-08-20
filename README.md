@@ -7,10 +7,16 @@ Gilbert Laycock - CW2Phase1.java, CW2Phase2.java, CW2Phase3.java, input-solids1.
 
 ## Description
 
-In first year of university, we had a module where we were taught inheritance classes in object orientated programming in Java. We were tasked with an assignment to do with different 3-dimensional objects.
+I learnt inheritance classes in object orientated programming for Java. I then used these skills learnt to create a project that has multiple 3-Dimensional shapes/classes.
 
-We had to create the parent class (Solid - This was just barebones of any 3D object), and then we had to create multiple child classes (Pyramid, Cube, Sphere) that inherited the properties of the parent solid class. This was tested with the different controller classes - checking for more and more issues thoughout each phase.
+I created the parent class (Solid - This was just barebones of any 3D object), and then I had to create multiple child classes (Pyramid, Cube, Sphere) that inherited the properties of the parent solid class. This was tested with the different controller classes - checking for more and more issues thoughout each phase.
 
+## What I learnt
+* Java
+* Classes
+* Inheritence Classes
+* String Manipulation
+  
 ## Installation
 
 Go onto Github, find the project and clone the repository.
